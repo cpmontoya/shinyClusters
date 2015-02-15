@@ -8,5 +8,7 @@ shinyUI(pageWithSidebar(
 
   sidebarPanel(),
 
-  mainPanel()
+  mainPanel(
+       plotOutput('newPlot')
+     )
 ))
