@@ -1,4 +1,5 @@
 library(shiny)
+library(ggplot2)
 
 # Define UI for shinyClusters application
 shinyUI(fluidPage(
